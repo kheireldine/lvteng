@@ -1,6 +1,6 @@
 werkzeug
 flask_wtf
-Flask==2.0.2
+Flask==2.2.2
 azure==4.0.0
 numpy
 pydub

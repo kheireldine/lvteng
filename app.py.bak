@@ -1,7 +1,5 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
-import os
-from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 
@@ -17,7 +15,7 @@ def favicon():
 
 @app.route('/hello', methods=['POST'])
 def hello():
-    if request.method == 'POST':
+       if request.method == 'POST':
         f = request.files['file']
         f.save(secure_filename(f.filename))
         print(f.filename)

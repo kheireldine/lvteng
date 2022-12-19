@@ -1,8 +1,8 @@
 werkzeug
 flask_wtf
-Flask==2.2.2
-azure==4.0.0
+Flask
+azure
 numpy
 pydub
-azure-storage-blob==12.14.1
+azure-storage-blob
 azure.cognitiveservices.speech

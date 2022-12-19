@@ -4,5 +4,5 @@ Flask==2.2.2
 azure==4.0.0
 numpy
 pydub
-azure-storage-blob
+azure-storage-blob==12.14.1
 azure.cognitiveservices.speech

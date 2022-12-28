@@ -67,7 +67,7 @@ def get_translation(input_file):
 
 
     print(a)
-    upload_fileblob(outname)
+    #upload_fileblob(outname)
 
     return a
 # IMPORTANT: Replace connection string with your storage account connection string
@@ -80,7 +80,7 @@ MY_IMAGE_CONTAINER = "vtts"
 # Replace with the local folder which contains the image files for upload
 LOCAL_IMAGE_PATH = ""
 
-blob_service_client = BlobServiceClient.from_connection_string(MY_CONNECTION_STRING)
+#blob_service_client = BlobServiceClient.from_connection_string(MY_CONNECTION_STRING)
 
 
 
@@ -216,7 +216,7 @@ def hello():
                 # Add '\n' to enter data of file2
                 # from next line
                 outfile.write("\n")
-        upload_fileblob(scriptTextVtt)
+        #upload_fileblob(scriptTextVtt)
         with open(scriptText, 'w') as englishtext:
             for c in txt_name_list:
                 # Open each file in read mode

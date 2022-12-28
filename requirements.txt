@@ -1,7 +1,7 @@
 werkzeug
 flask_wtf
 Flask
-azure==4.0.0
+azure
 numpy
 pydub
 azure-storage-blob
